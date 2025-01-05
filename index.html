@@ -151,18 +151,29 @@
                 data-text="Menu">Menu</h2>
             <div class="menu-section">
                 <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom" data-aos-duration="300">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="food-tab" data-bs-toggle="tab"
-                            data-bs-target="#food-tab-pane" type="button" role="tab" aria-controls="food-tab-pane"
-                            aria-selected="true"><i class="fa-solid fa-utensils"></i> Meat</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="drink-tab" data-bs-toggle="tab" data-bs-target="#drink-tab-pane"
-                            type="button" role="tab" aria-controls="drink-tab-pane" aria-selected="false"><i class="fa-solid fa-plate-wheat"></i> Sides</button>
-                    </li>
-
-                </ul>
+        data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="food-tab" data-bs-toggle="tab"
+                data-bs-target="#food-tab-pane" type="button" role="tab" aria-controls="food-tab-pane"
+                aria-selected="true" aria-label="Meat section">
+                <i class="fa-solid fa-drumstick-bite"></i> Meat
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="drink-tab" data-bs-toggle="tab"
+                data-bs-target="#drink-tab-pane" type="button" role="tab" aria-controls="drink-tab-pane"
+                aria-selected="false" aria-label="Sides section">
+                <i class="fa-solid fa-bowl-food"></i> Sides
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="concessions-tab" data-bs-toggle="tab"
+                data-bs-target="#concessions-tab-pane" type="button" role="tab" aria-controls="concessions-tab-pane"
+                aria-selected="false" aria-label="Concessions section">
+                <i class="fa-solid fa-hotdog"></i> Concessions
+            </button>
+        </li>
+    </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="food-tab-pane" role="tabpanel" aria-labelledby="food-tab"
                         tabindex="0">
@@ -342,7 +353,7 @@
                                     
                                 </div>
                                 
-                                
+                                <!--Concessions Tab-->
                                 <!---
 
                                 <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -552,6 +563,121 @@
                                     </div>
                                     <div class="product-price">
                                         <span>$20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="concessions-tab-pane" role="tabpanel" aria-labelledby="concessions-tab" tabindex="0">
+                        <div class="row">
+                            <!-- Column 1 -->
+                            <div class="col-lg-6">
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Hot Dogs</h5>
+                                        <p>All-beef hot dogs served with condiments.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$4.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Hot Dog Combo</h5>
+                                        <p>Includes chips and a drink.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Combo</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$8.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Pizza Rolls</h5>
+                                        <p>Hot and crispy pizza rolls.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$8.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Walking Taco</h5>
+                                        <p>Taco in a portable bag for easy eating.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$6.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column 2 -->
+                            <div class="col-lg-6">
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Loaded Nachos</h5>
+                                        <p>Nachos with warm cheese and toppings.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$6.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Popcorn</h5>
+                                        <p>Freshly popped and salted.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$4.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Nachos</h5>
+                                        <p>Classic nachos with cheese sauce.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Item</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$4.00</span>
+                                    </div>
+                                </div>
+                                <div class="menu-item-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="300">
+                                    <div class="menu-title-desc">
+                                        <h5>Drinks</h5>
+                                        <p>Pepsi, Diet Pepsi, Mt. Dew, Sprite, Gatorade, Water.</p>
+                                    </div>
+                                    <div class="product-weight">
+                                        <span>1</span>
+                                        <sub>Drink</sub>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>$3.00</span>
                                     </div>
                                 </div>
                             </div>
