@@ -1045,4 +1045,9 @@ footer .social_icon .icon:hover i {
   transform: translateY(-50%);
 }
 
+.carousel-item img {
+  width: 100%; /* Same as above */
+  height: auto;
+  object-fit: cover;
+}
 
