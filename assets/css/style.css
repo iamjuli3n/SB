@@ -1280,3 +1280,78 @@ footer .social_icon .icon:hover i {
     display: block;
   }
 }
+
+/* =============== GLOBAL MOBILE STYLES =============== */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .section_title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Center all section content */
+  section > div {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .section_title {
+    font-size: 1.8rem;
+  }
+  
+  /* Stack all flex containers */
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  /* Adjust spacing for mobile */
+  .section_top_spacing {
+    padding: 40px 0;
+  }
+}
+
+/* Specific section adjustments */
+@media (max-width: 768px) {
+  /* Testimonials */
+  .testimonial_card {
+    margin-bottom: 30px !important;
+  }
+  
+  /* Menu tabs */
+  .nav-tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Hide icons in tight spaces */
+  .nav-link i {
+    display: none;
+  }
+  
+  /* Events section */
+  .event-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
